@@ -1,0 +1,4 @@
+# Lab 10: OOP for Agents
+## My Assistant: Stacy, the Library Book Finder
+
+Stacy is a library assistant that tells visitors whether a book is on the shelf and how many copies are available.She uses a separate `BookLookup` tool. It's a mock: Stacy's replies come from simple keyword rules instead of an AI model, and the book list is a small hard coded dictionary instead of an actual library catalog. Any message about fees, fines, payments, or library cards is passed to a librarian, because those involve money and visitor's personal account, which a bot should not handle. If Stacy used real visitor data it could expose private information to someone who is not that visitor.
